@@ -7,11 +7,11 @@ body {
   color: white;
 }
 .background {
-  background-color: teal;
-  padding: 10px 0px;
   color: blueviolet;
 }
-#id
- {
+#id {
   color: brown;
+}
+.main-header {
+  text-align: center;
 }
