@@ -1,16 +1,15 @@
 body {
-  background-color: aqua;
+  background-image: url(img/citybackground.jpg);
+  background-size: cover;
   font-size: 25px;
+  font-family: "Patua One", cursive;
 }
 
-.white-font {
-  color: white;
-}
-.background {
+.citynames {
   color: blueviolet;
 }
 #id {
-  color: brown;
+  color: yellow;
 }
 .main-header {
   text-align: center;
