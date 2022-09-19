@@ -1,5 +1,6 @@
 body {
   background-image: url(img/citybackground.jpg);
+  background-repeat: no-repeat;
   background-size: cover;
   font-size: 25px;
   font-family: "Patua One", cursive;
@@ -7,27 +8,34 @@ body {
 
 .citynames {
   color: blueviolet;
-text-align:center;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 #id {
   color: yellow;
 }
 .main-header {
   text-align: center;
-margin-bottom: 100px;
+  margin-bottom: 100px;
 }
-.city1{
-
+.city1 {
 }
-.city2{
-
+.city2 {
 }
-.city3{
-
+.city3 {
 }
-.cityinfo1{
-  padding-bottom: 150px;
+.cityinfo1 {
+  padding-bottom: 50px;
+  margin-bottom: 450px;
 }
-.cityinfo2{
-  padding-bottom: 150px;
+.cityinfo2 {
+  padding-bottom: 50px;
+  background-color: red;
+  margin-bottom: 450px;
+}
+.cityinfo3 {
+  padding-bottom: 50px;
+  background-color: gold;
+  margin-bottom: 450px;
 }
