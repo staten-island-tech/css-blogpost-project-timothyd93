@@ -6,46 +6,65 @@ body {
   font-family: "Patua One", cursive;
 }
 
-.citynames {
+.cityinfo {
   color: blueviolet;
   text-align: center;
   display: flex;
   flex-direction: row;
-  position:relative;
-height: 550px;
-border: 5px solid gold;
+  position: relative;
+  font-size: 20px;
 }
 #id {
   color: yellow;
 }
 .main-header {
   text-align: center;
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 .cityinfo1 {
-  border: 3px solid black;
+  position: absolute;
+  border: 5px solid gold;
   height: 500px;
   width: 500px;
-  position: absolute;
 }
 .cityinfo2 {
-  border: 3px solid black;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  border: 5px solid gold;
   height: 500px;
   width: 500px;
-position: absolute;
-left:50%;
-transform: translate(-50%);
 }
 .cityinfo3 {
-  border: 3px solid black;
+  position: absolute;
+  left: 100%;
+  transform: translate(-100%);
+  border: 5px solid gold;
   height: 500px;
   width: 500px;
-position: absolute;
-left: 100%;
-transform: translate(-100%);
+}
+.city1 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+}
+.city2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.city3 {
+  position: absolute;
+  width: 500px;
+  text-align: center;
+  left: 100%;
+  transform: translate(-100%);
 }
 .city {
-  color:aquamarine;
-  position:relative;
-  left: 180px;
+  color: aquamarine;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  height: 100px;
 }
