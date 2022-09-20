@@ -1,17 +1,14 @@
 body {
-  background-image: url(img/citybackground.jpg);
-  background-repeat: no-repeat;
+  background-color: #6c5875;
   background-size: cover;
   font-size: 25px;
   font-family: "Patua One", cursive;
 }
 
 .cityinfo {
-  color: blueviolet;
+  color: #00ddff;
   text-align: center;
   display: flex;
-  flex-direction: row;
-  position: relative;
   font-size: 20px;
 }
 #id {
@@ -26,6 +23,7 @@ body {
   border: 5px solid gold;
   height: 500px;
   width: 500px;
+  background-color: #c06;
 }
 .cityinfo2 {
   position: absolute;
@@ -34,6 +32,7 @@ body {
   border: 5px solid gold;
   height: 500px;
   width: 500px;
+  background-color: #c06;
 }
 .cityinfo3 {
   position: absolute;
@@ -42,6 +41,7 @@ body {
   border: 5px solid gold;
   height: 500px;
   width: 500px;
+  background-color: #c06;
 }
 .city1 {
   position: absolute;
@@ -61,7 +61,7 @@ body {
   transform: translate(-100%);
 }
 .city {
-  color: aquamarine;
+  color: #fff685;
   text-align: center;
   display: flex;
   flex-direction: row;
