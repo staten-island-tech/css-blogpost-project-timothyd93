@@ -1,12 +1,12 @@
 body {
-  background-image: url(img/citybackground.jpg);
+  background-color: #d9b99b;
   background-size: cover;
   font-size: 25px;
   font-family: "Patua One", cursive;
 }
 
 .cityinfo {
-  color: #00ddff;
+  color: #F7CAC9;
   text-align: center;
   display: flex;
   font-size: 20px;
@@ -61,7 +61,7 @@ body {
   transform: translate(-100%);
 }
 .city {
-  color: #fff685;
+  color: #87AB69;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -73,5 +73,5 @@ body {
   height: 300px;
   width: 350px;
   left: 75px;
-  top:  510px;
+  top:  410px;
 }
