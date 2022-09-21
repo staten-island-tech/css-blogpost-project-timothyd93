@@ -12,6 +12,7 @@ img {
   text-align: center;
   display: flex;
   font-size: 20px;
+  top: 300px;
 }
 #id {
   color: #00008b;
@@ -44,7 +45,6 @@ img {
   height: 500px;
   width: 500px;
   background-color: #c06;
-  top: 300px;
 }
 .city1 {
   position: absolute;
@@ -71,31 +71,26 @@ img {
   position: relative;
   height: 100px;
 }
-.cityimage {
-  position: absolute;
-  height: 300px;
-  width: 350px;
-}
 
 .rome {
-  position: absolute;
   height: 300px;
-  width: 350px;
-  left: 75px;
-  top: 510px;
+  width: 400px;
+  position: absolute;
+  left: 2%;
+  margin-top: 200px;
 }
 .vegas {
   height: 300px;
   width: 400px;
-  position: relative;
+  position: absolute;
   left: 39%;
   margin-top: 200px;
+  top: 300px;
 }
 .paris {
   height: 300px;
   width: 400px;
-  position: relative;
-  left: 39%;
+  position: absolute;
+  left: 76%;
   margin-top: 200px;
-  right: 50%;
 }
