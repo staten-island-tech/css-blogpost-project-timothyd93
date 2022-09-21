@@ -1,5 +1,5 @@
 body {
-  background-color: #6c5875;
+  background-color: #a3c585;
   background-size: cover;
   font-size: 25px;
   font-family: "Patua One", cursive;
@@ -12,7 +12,7 @@ body {
   font-size: 20px;
 }
 #id {
-  color: yellow;
+  color: #00008b;
 }
 .main-header {
   text-align: center;
@@ -71,7 +71,7 @@ body {
 .rome {
   position: absolute;
   height: 300px;
-  width: 300px;
-  left: 100px;
-  top:  500px;
+  width: 350px;
+  left: 75px;
+  top:  510px;
 }
