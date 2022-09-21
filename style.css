@@ -4,9 +4,11 @@ body {
   font-size: 25px;
   font-family: "Patua One", cursive;
 }
-
+img {
+  padding: 15px;
+}
 .cityinfo {
-  color: #F7CAC9;
+  color: #f7cac9;
   text-align: center;
   display: flex;
   font-size: 20px;
@@ -42,6 +44,7 @@ body {
   height: 500px;
   width: 500px;
   background-color: #c06;
+  top: 300px;
 }
 .city1 {
   position: absolute;
@@ -61,17 +64,38 @@ body {
   transform: translate(-100%);
 }
 .city {
-  color: #87AB69;
+  color: #87ab69;
   text-align: center;
   display: flex;
   flex-direction: row;
   position: relative;
   height: 100px;
 }
+.cityimage {
+  position: absolute;
+  height: 300px;
+  width: 350px;
+}
+
 .rome {
   position: absolute;
   height: 300px;
   width: 350px;
-  left: 85px;
-  top:  510px;  
+  left: 75px;
+  top: 510px;
+}
+.vegas {
+  height: 300px;
+  width: 400px;
+  position: relative;
+  left: 39%;
+  margin-top: 200px;
+}
+.paris {
+  height: 300px;
+  width: 400px;
+  position: relative;
+  left: 39%;
+  margin-top: 200px;
+  right: 50%;
 }
