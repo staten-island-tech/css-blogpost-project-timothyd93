@@ -11,8 +11,9 @@ img {
   color: #f7cac9;
   text-align: center;
   display: flex;
+  flex-direction: row;
   font-size: 20px;
-  top: 300px;
+  position:relative
 }
 #id {
   color: #00008b;
@@ -22,50 +23,47 @@ img {
   margin-bottom: 100px;
 }
 .cityinfo1 {
-  position: absolute;
+  position: relative;
   border: 5px solid gold;
   height: 500px;
   width: 500px;
   background-color: #c06;
+  
 }
 .cityinfo2 {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  position: relative;
   border: 5px solid gold;
   height: 500px;
   width: 500px;
   background-color: #c06;
+  left: 36vw;
+  bottom: 29vw;
 }
 .cityinfo3 {
-  position: absolute;
-  left: 100%;
-  transform: translate(-100%);
+  position: relative;
   border: 5px solid gold;
   height: 500px;
   width: 500px;
   background-color: #c06;
+  left: 72vw;
+  bottom:58vw;
 }
 .city1 {
-  position: absolute;
-  width: 500px;
-  text-align: center;
+  position: relative;
+  left: 9vw;
+  width:500px;
 }
 .city2 {
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%);
+  position: relative;
+  left: 18vw;
+  width:500px;
 }
 .city3 {
-  position: absolute;
-  width: 500px;
-  text-align: center;
-  left: 100%;
-  transform: translate(-100%);
+  position: relative;
+  left:31vw;
 }
 .city {
   color: #87ab69;
-  text-align: center;
   display: flex;
   flex-direction: row;
   position: relative;
@@ -74,23 +72,23 @@ img {
 
 .rome {
   height: 300px;
-  width: 400px;
-  position: absolute;
-  left: 2%;
-  margin-top: 200px;
+  width: 420px;
+  position: relative;
+  right: 25vw;
+  top: 11vw;
 }
-.vegas {
+  .vegas {
   height: 300px;
-  width: 400px;
-  position: absolute;
-  left: 39%;
-  margin-top: 200px;
-  top: 300px;
+  width: 420px;
+  position: relative;
+  left: 11vw;
+  bottom: 18vw;
 }
 .paris {
   height: 300px;
-  width: 400px;
-  position: absolute;
-  left: 76%;
-  margin-top: 200px;
+  width: 420px;
+  position: relative;
+  left: 47vw;
+  bottom: 47vw;
 }
+
