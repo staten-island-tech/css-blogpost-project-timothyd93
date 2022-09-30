@@ -13,7 +13,6 @@ img {
   display: flex;
   flex-direction: column;
   font-size: 20px;
-
 }
 #id {
   color: #00008b;
@@ -23,38 +22,33 @@ img {
   margin-bottom: 100px;
 }
 .cityinfo1 {
-
   border: 5px solid gold;
   height: 500px;
   width: 500px;
   background-color: #c06;
 }
- 
+
 .cityname {
-display: flex;
-flex-direction: column;
-color: #87ab69;
-font-size: 40px;
+  display: flex;
+  flex-direction: column;
+  color: #87ab69;
+  font-size: 40px;
 }
 
 .rome {
   height: 300px;
   width: 420px;
-
-
 }
 .vegas {
   height: 300px;
   width: 420px;
-
 }
 .paris {
   height: 300px;
   width: 420px;
-
 }
 .container {
-  height:100%;
-  display:flex;
-justify-content: space-evenly;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
 }
